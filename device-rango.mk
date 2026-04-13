@@ -14,6 +14,9 @@ TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 # Inherit from laguna
 include device/google/laguna/common.mk
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/rango/overlay-evolution
+
 # Fold extensions
 PRODUCT_SYSTEM_SERVER_JARS += \
     system_ext:rango-services
