@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "device_google_laguna",
+    "target_path": "device/google/laguna"
+  },
+  {
+    "repository": "vendor_google_rango",
+    "target_path": "vendor/google/rango"
+  },
+  {
+    "repository": "LineageOS/android_device_google_rango-kernels",
+    "target_path": "device/google/rango-kernels",
+    "remote": "github-non-los",
+    "branch": "lineage-23.2"
+  }
+]
